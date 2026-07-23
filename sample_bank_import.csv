@@ -1,0 +1,6 @@
+Bank Name,Account Type,Account Number,Balance,Interest Rate (%),Currency,Notes
+HDFC Bank,Savings Account,501002391823,250000,3.50,INR,Primary emergency fund
+ICICI Bank,High-Yield Savings,000401582910,180000,4.00,INR,Secondary liquid reserve
+State Bank of India,Savings Account,30918273641,95000,3.00,INR,Salary sweep account
+JPMorgan Chase,Checking Account,893021948,5200,0.50,USD,US Dollar travel expense account
+HSBC,Multi-Currency Savings,771029384,3400,1.80,GBP,UK Pound sterling account

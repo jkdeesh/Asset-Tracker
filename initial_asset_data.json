@@ -1,0 +1,234 @@
+{
+  "bankSavings": [
+    {
+      "id": "bank_001",
+      "bankName": "HDFC Bank",
+      "accountType": "Savings Account",
+      "accountNumber": "501002391823",
+      "balance": 250000,
+      "interestRate": 3.5,
+      "currency": "INR",
+      "notes": "Primary emergency fund savings",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "bank_002",
+      "bankName": "ICICI Bank",
+      "accountType": "High-Yield Savings",
+      "accountNumber": "000401582910",
+      "balance": 180000,
+      "interestRate": 4.0,
+      "currency": "INR",
+      "notes": "Secondary liquid reserve",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "bank_003",
+      "bankName": "JPMorgan Chase",
+      "accountType": "Checking Account",
+      "accountNumber": "893021948",
+      "balance": 5200,
+      "interestRate": 0.5,
+      "currency": "USD",
+      "notes": "US Dollar travel and international expenses",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "fixedDeposits": [
+    {
+      "id": "fd_001",
+      "bankName": "State Bank of India",
+      "depositNumber": "FD-2024-99812",
+      "principal": 500000,
+      "interestRate": 6.8,
+      "startDate": "2024-01-15",
+      "maturityDate": "2026-01-15",
+      "currency": "INR",
+      "notes": "Cumulative term deposit 2 years",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "fd_002",
+      "bankName": "Axis Bank",
+      "depositNumber": "AXIS-FD-77123",
+      "principal": 300000,
+      "interestRate": 7.1,
+      "startDate": "2024-06-10",
+      "maturityDate": "2025-12-10",
+      "currency": "INR",
+      "notes": "Senior tax saver FD",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "mutualFunds": [
+    {
+      "id": "mf_001",
+      "fundName": "Mirae Asset Large Cap Fund - Direct Growth",
+      "category": "Equity",
+      "units": 1250.45,
+      "averageNav": 82.5,
+      "currentNav": 98.4,
+      "currency": "INR",
+      "investmentType": "SIP",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "mf_002",
+      "fundName": "Parag Parikh Flexi Cap Fund - Direct Growth",
+      "category": "Equity",
+      "units": 2100.8,
+      "averageNav": 54.2,
+      "currentNav": 71.6,
+      "currency": "INR",
+      "investmentType": "SIP",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "mf_003",
+      "fundName": "Vanguard Total Stock Market ETF (VTI)",
+      "category": "Index",
+      "units": 45.0,
+      "averageNav": 210.0,
+      "currentNav": 268.5,
+      "currency": "USD",
+      "investmentType": "Lumpsum",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "immovableAssets": [
+    {
+      "id": "real_001",
+      "propertyName": "Greenwood Horizon Apartment #402",
+      "propertyType": "Residential Apartment",
+      "area": 1450,
+      "unit": "sqft",
+      "locationName": "Indiranagar, Bengaluru, Karnataka",
+      "latitude": 12.9784,
+      "longitude": 77.6408,
+      "estimatedValue": 13500000,
+      "currency": "INR",
+      "notes": "3BHK Luxury condo with parking",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "real_002",
+      "propertyName": "Ancestral Farm Land",
+      "propertyType": "Agricultural Land",
+      "area": 2.5,
+      "unit": "acres",
+      "locationName": "Coimbatore Rural, Tamil Nadu",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "estimatedValue": 8500000,
+      "currency": "INR",
+      "notes": "Coconut plantation property",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "insurances": [
+    {
+      "id": "ins_001",
+      "policyName": "HDFC ERGO Optima Secure Health Insurance",
+      "policyType": "Health",
+      "policyNumber": "POL-2023-881920",
+      "premiumAmount": 24500,
+      "frequency": "Annually",
+      "sumAssured": 1000000,
+      "startDate": "2023-04-01",
+      "dueDate": "2025-04-01",
+      "status": "Active",
+      "currency": "INR",
+      "notes": "Family floater policy for self and spouse",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "ins_002",
+      "policyName": "LIC Tech Term Insurance Plan",
+      "policyType": "Life (LIC)",
+      "policyNumber": "LIC-981203948",
+      "premiumAmount": 18200,
+      "frequency": "Annually",
+      "sumAssured": 10000000,
+      "startDate": "2022-08-15",
+      "dueDate": "2025-08-15",
+      "status": "Active",
+      "currency": "INR",
+      "notes": "Pure term protection plan till age 65",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "preciousAssets": [
+    {
+      "id": "gold_001",
+      "name": "Heritage Gold Coins 24K",
+      "type": "Gold",
+      "weight": 50,
+      "unit": "grams",
+      "karat": "24K",
+      "purchasePrice": 280000,
+      "purchaseCurrency": "INR",
+      "notes": "Bank certified gold bullion bars",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "gold_002",
+      "name": "Bridal Antique Gold Necklace",
+      "type": "Gold",
+      "weight": 8,
+      "unit": "pavun",
+      "karat": "22K",
+      "purchasePrice": 360000,
+      "purchaseCurrency": "INR",
+      "notes": "Traditional family heirloom jewelry (64 grams total)",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "diamond_001",
+      "name": "Solitaire Diamond Engagement Ring",
+      "type": "Diamond",
+      "weight": 1.5,
+      "unit": "carats",
+      "diamondSpecifics": {
+        "caratWeight": 1.5,
+        "cut": "Round",
+        "clarity": "VVS1",
+        "color": "E",
+        "diamondType": "Natural"
+      },
+      "purchasePrice": 420000,
+      "purchaseCurrency": "INR",
+      "notes": "GIA Certified solitaire ring",
+      "ownerIds": ["user_1"]
+    }
+  ],
+  "liabilities": [
+    {
+      "id": "liab_001",
+      "lenderName": "HDFC Bank Home Loan",
+      "liabilityType": "Home Loan",
+      "totalAmount": 8000000,
+      "interestRate": 8.4,
+      "monthlyPayment": 68500,
+      "startDate": "2021-03-01",
+      "endDate": "2041-03-01",
+      "outstandingAmount": 6420000,
+      "currency": "INR",
+      "notes": "Primary housing loan for Indiranagar apartment",
+      "ownerIds": ["user_1"]
+    },
+    {
+      "id": "liab_002",
+      "lenderName": "ICICI Bank Auto Loan",
+      "liabilityType": "Car Loan",
+      "totalAmount": 1200000,
+      "interestRate": 8.9,
+      "monthlyPayment": 24800,
+      "startDate": "2023-01-10",
+      "endDate": "2028-01-10",
+      "outstandingAmount": 710000,
+      "currency": "INR",
+      "notes": "Vehicle loan for SUV",
+      "ownerIds": ["user_1"]
+    }
+  ]
+}
